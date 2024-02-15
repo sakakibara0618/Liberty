@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Liberty</title>
+    <meta name="description" content="ヒヤリングに基づいたプランに沿って、最新で最高のデザインを作成いたします。">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Noto+Sans+JP&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="content-width">
+            <div id="header-container">
+                <a href="index.html" id="logo">Liberty</a>
+                <!-- PC用ナビゲーション -->
+                <nav id="nav-pc">
+                    <a class="nav-hover" href="index.html#works">Works</a>
+                    <a class="nav-hover" href="index.html#skill">Skill</a>
+                    <a class="nav-hover" href="index.html#about">About</a>
+                    <a class="nav-hover" href="blog.html">Blog</a>
+                    <a class="nav-hover" href="index.html#contact">Contact</a>
+                </nav>
+                <!-- スマホ用メニューボタン -->
+                <img style="width: 30px; height: auto;" id="menu-sp" src="images/menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <nav id="nav-sp">
+                <img id="close" src="images/bad.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'" style="font-size: 45px;">Liberty</a>
+                <a class="menu" href="index.html#works" onclick="document.getElementById('nav-sp').style.display = 'none'">Works</a>
+                <a class="menu" href="index.html#skill" onclick="document.getElementById('nav-sp').style.display = 'none'">Skill</a>
+                <a class="menu" href="index.html#about" onclick="document.getElementById('nav-sp').style.display = 'none'">About</a>
+                <a class="menu" href="blog.html" onclick="document.getElementById('nav-sp').style.display = 'none'">Blog</a>
+                <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h1 class="nav-title">Works</h1>
+                <div class="content-width">
+                    <div class="works-images">
+                        <img src="images/works/gateu.web/gateau.png" alt="gateau">
+                    </div>
+                    <div class="works-text">
+                        <span>gateauのHP</span>
+                        <p>Illustrator</p>
+                        <h2>担当</h2>
+                        <p>デザイン</p>
+                        <h2>デザインについて</h2>
+                        <p>ケーキを連想させるような柔らかい色を使い、お客様が読み進めたくなるようなデザインを意識して制作しました。</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <a id="up-arrow" href="index.html#works"><p>Works一覧</p></a>
+        <div class="content-width">
+            <div id="footer-list">
+                <div id="footer-link">
+                    <a class="nav-hover" href="index.html#works">Works</a>
+                    <a class="nav-hover" href="index.html#skill">Skill</a>
+                    <a class="nav-hover" href="index.html#about">About</a>
+                    <a class="nav-hover" href="blog.html">Blog</a>
+                    <a class="nav-hover" href="index.html#contact">Contact</a>
+                    <a id="icon1" href="https://www.instagram.com/liberty_webdesign/">
+                      <img src="images/icon.png" alt="instagram">
+                    </a>
+                </div>
+                <span id="copyright">&copy;2024 Liberty All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
