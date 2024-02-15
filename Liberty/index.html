@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Liberty</title>
+    <meta name="description" content="ヒヤリングに基づいたプランに沿って、最新で最高のデザインを作成いたします。">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Noto+Sans+JP&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="content-width">
+            <div id="header-container">
+                <a href="index.html" id="logo">Liberty</a>
+                <!-- PC用ナビゲーション -->
+                <nav id="nav-pc">
+                    <a class="nav-hover" href="index.html#works">Works</a>
+                    <a class="nav-hover" href="index.html#skill">Skill</a>
+                    <a class="nav-hover" href="index.html#about">About</a>
+                    <a class="nav-hover" href="blog.html">Blog</a>
+                    <a class="nav-hover" href="index.html#contact">Contact</a>
+                </nav>
+                <!-- スマホ用メニューボタン -->
+                <img style="width: 30px; height: auto;" id="menu-sp" src="images/menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <nav id="nav-sp">
+                <img id="close" src="images/bad.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'" style="font-size: 45px;">Liberty</a>
+                <a class="menu" href="index.html#works" onclick="document.getElementById('nav-sp').style.display = 'none'">Works</a>
+                <a class="menu" href="index.html#skill" onclick="document.getElementById('nav-sp').style.display = 'none'">Skill</a>
+                <a class="menu" href="index.html#about" onclick="document.getElementById('nav-sp').style.display = 'none'">About</a>
+                <a class="menu" href="blog.html" onclick="document.getElementById('nav-sp').style.display = 'none'">Blog</a>
+                <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <a id="top-btn" href="index.html">TOPに戻る</a>
+            <!-- メインビジュアル -->
+            <img id="main-img" src="images/main.png" alt="メイン写真">
+            <!-- Works -->
+            <section id="works">
+                <div class="content-width">
+                    <h1 class="nav-title">Works</h1>
+                    <div id="works-list">
+                        <div>
+                            <a href="works1.html">
+                                <img src="images/works/socialtech.web/SocialTech.png" alt="SocialTech">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="works2.html">
+                                <img src="images/works/Kazuki.web/html2.png" alt="Kazuki">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="works3.html">
+                                <img src="images/works/university.web/wordpress2.png" alt="university">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="works4.html">
+                                <img src="images/works/beauty-salon.web/wordpress1.png" alt="beauty-salon">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="works5.html">
+                                <img src="images/works/ITschool.web/photoshop.png" alt="ITschool">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="works6.html">
+                                <img src="images/works/Korean.web/korean.jpeg" alt="Korean">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="works7.html">
+                                <img src="images/works/gateu.web/gateau1.png" alt="gateau">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skill -->
+            <section id="skill">
+                <div class="content-width">
+                    <h1 class="nav-title">Skill</h1>
+                    <div id="skill-list">
+                        <div>
+                            <img src="images/skills/html.png" alt="HTML/CSS">
+                            <h2>HTML/CSS<br><span>スマホで見ても表示崩れのないレスポンシブ対応も可能です。</span></h2>
+                        </div>
+                        <div>
+                            <img src="images/skills/wordpress.png" alt="WordPress">
+                            <h2>WordPress<br><span>WordPress製の店舗HP・企業HP・メディアサイトなど、Webサイトを0から構築することが可能です。</span></h2>
+                        </div>
+                        <div>
+                            <img src="images/skills/js.png" alt="JavaScript">
+                            <h2>JavaScript<br><span>お問い合わせフォームや自動スクロールなど動きのあるWebサイトを作ることが可能です。</span></h2>
+                        </div>
+                        <div>
+                            <img src="images/skills/jquery.png" alt="jQuery">
+                            <h2>jQuery<br><span>Webサイトにフェードイン・フェードアウトなどリッチな動きをつけることが可能です。</span></h2>
+                        </div>
+                        <div>
+                            <img src="images/skills/photoshop.png" alt="PhotoShop">
+                            <h2>PhotoShop<br><span>Webサイトに必要不可欠なクリエイティブバナーを作ることが可能です。</span></h2>
+                        </div>
+                        <div>
+                            <img src="images/skills/Illustrator.svg.png" alt="Illustrator">
+                            <h2>Illustrator<br><span>Web制作に必要な簡単なロゴやアイコンの作成、文字の装飾などの作業が可能です。</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="about">
+                <h1 class="nav-title">About</h1>
+                <img src="images/about.png" alt="顔写真">
+                <div id="about-background">
+                    <div class="content-width">
+                        <div id="about-list">
+                            <h2>Hello,world!</h2>
+                            <p>
+                              2003年生まれ。 高校卒業後、新卒でネジ加工の工場に就職。 
+                              1年半で退職し、場所や時間に捉われない仕事をしたいと思いWeb系フリーランスへ転向。
+                              現在は、交通誘導警備員の仕事をしながらフリーランスWebデザイナーとして活動中。
+                              低予算でWebサイトをお作りしますので、お気軽にお問い合わせください。
+                            </p>
+                            <a href="profile.html">Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <div class="content-width">
+                    <h1 class="nav-title">Contact</h1>
+                    <div id="contact-list">
+                        <p>
+                          お問い合わせは、SNSまたは下記のフォームより分かる範囲でご記入をお願いします。
+                        </p>
+                        <form method="post" action="mail.php">
+                            <div>
+                                <label class="contact-label">お名前<span class="contact-span">※必須</span></label><br>
+                                <input type="text" name="お名前" class="contact-textbox">
+                            </div>
+                            <div>
+                                <label class="contact-label">フリガナ<span class="contact-span">※必須</span></label><br>
+                                <input type="text" name="フリガナ" class="contact-textbox">
+                            </div>
+                            <div>
+                                <label class="contact-label">メールアドレス<span class="contact-span">※必須</span></label><br>
+                                <input type="text" name="メールアドレス" class="contact-textbox">
+                            </div>
+                            <div>
+                                <label class="contact-label">電話番号</label><br>
+                                <input type="text" name="電話番号" class="contact-textbox">
+                            </div>
+                            <div>
+                                <label class="contact-label">お問い合わせ内容<span class="contact-span">※必須</span></label><br>
+                                <textarea class="contact-textarea" name="お問い合わせ内容"></textarea>
+                            </div>
+                            <div id="btm">
+                                <input type="submit" value="内容を送信する">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <a id="up-arrow" href="index.html">
+          <img src="images/arrow.png" alt="TOPに戻る">
+        </a>
+        <div class="content-width">
+            <div id="footer-list">
+                <div id="footer-link">
+                    <a class="nav-hover" href="index.html#works">Works</a>
+                    <a class="nav-hover" href="index.html#skill">Skill</a>
+                    <a class="nav-hover" href="index.html#about">About</a>
+                    <a class="nav-hover" href="blog.html">Blog</a>
+                    <a class="nav-hover" href="index.html#contact">Contact</a>
+                    <a id="icon1" href="https://www.instagram.com/liberty_webdesign/">
+                      <img src="images/icon.png" alt="instagram">
+                    </a>
+                </div>
+                <span id="copyright">&copy;2024 Liberty All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+
+</html>
